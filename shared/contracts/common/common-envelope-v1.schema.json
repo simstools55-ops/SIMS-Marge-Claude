@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "envelope",
+    "payload"
+  ],
+  "properties": {
+    "envelope": {
+      "type": "object",
+      "required": [
+        "platform",
+        "platform_version",
+        "contract_name",
+        "contract_version",
+        "message_type",
+        "message_id",
+        "correlation_id",
+        "created_at",
+        "source_product",
+        "target_product",
+        "shared_version"
+      ],
+      "properties": {
+        "platform": {
+          "const": "SIMS_EDITORIAL_PLATFORM"
+        },
+        "platform_version": {
+          "type": "string"
+        },
+        "contract_name": {
+          "type": "string"
+        },
+        "contract_version": {
+          "type": "string"
+        },
+        "message_type": {
+          "enum": [
+            "REQUEST",
+            "RESULT",
+            "EVENT",
+            "ERROR",
+            "ACKNOWLEDGEMENT"
+          ]
+        },
+        "message_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "correlation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "causation_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "source_product": {
+          "type": "object"
+        },
+        "target_product": {
+          "type": "object"
+        },
+        "shared_version": {
+          "type": "string"
+        },
+        "locale": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        }
+      }
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

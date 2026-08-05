@@ -1,0 +1,14 @@
+{
+  "name": "result-status",
+  "version": "1.0",
+  "values": [
+    "SUCCESS",
+    "PARTIAL_SUCCESS",
+    "NO_ACTION",
+    "USER_DECISION_REQUIRED",
+    "EVIDENCE_INSUFFICIENT",
+    "NOT_APPLICABLE",
+    "VALIDATION_FAILED",
+    "FAILED"
+  ]
+}

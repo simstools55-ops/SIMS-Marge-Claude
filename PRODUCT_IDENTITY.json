@@ -1,0 +1,10 @@
+{
+  "product_code": "MERGE",
+  "product_name": "SIMS Merge",
+  "repository_name": "SIMS-Merge-Claude",
+  "repository_type": "CLAUDE_PACKAGE",
+  "runtime": "CLAUDE_PROJECT",
+  "package_version": "1.0.0-RC1",
+  "product_compatibility": "1.0.x",
+  "shared_version": "3.3.0"
+}

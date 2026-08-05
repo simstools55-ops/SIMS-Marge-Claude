@@ -1,0 +1,23 @@
+{
+  "shared_version": "3.3.0",
+  "snapshot_for": "MERGE",
+  "generated_at": "2026-08-05T18:00:00+09:00",
+  "included_paths": [
+    "contracts/common/common-envelope-v1.schema.json",
+    "contracts/merge/merge-treatment-request-v1.schema.json",
+    "contracts/merge/merge-treatment-result-v1.schema.json",
+    "contracts/merge/merge-plan-v1.schema.json",
+    "contracts/platform/platform-error-v1.schema.json",
+    "enums/treatment-type.json",
+    "enums/result-status.json",
+    "enums/priority.json"
+  ],
+  "excluded_paths": [
+    "runtime/doctor",
+    "runtime/writer",
+    "runtime/creator"
+  ],
+  "compatible_product_versions": [
+    "1.0.x"
+  ]
+}
