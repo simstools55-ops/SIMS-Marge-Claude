@@ -1,0 +1,18 @@
+{
+  "package_name": "SIMS-Merge-Claude",
+  "package_version": "1.0.0-RC2",
+  "product_code": "MERGE",
+  "compatible_product_versions": [
+    "1.0.x"
+  ],
+  "platform_compatibility": "1.x",
+  "shared_version": "3.3.0",
+  "supported_contracts": [
+    "SIMS_MERGE_TREATMENT_REQUEST_V1",
+    "SIMS_MERGE_TREATMENT_RESULT_V1",
+    "SIMS_MERGE_PLAN_V1"
+  ],
+  "legacy_compatibility": [],
+  "deployment_method": "Claude-Upload",
+  "generated_at": "2026-08-06T05:56:40+09:00"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "priority",
+  "version": "1.0",
+  "values": [
+    "CRITICAL",
+    "HIGH",
+    "MEDIUM",
+    "LOW",
+    "MONITOR"
+  ]
+}

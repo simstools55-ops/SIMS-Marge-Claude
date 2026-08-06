@@ -1,0 +1,392 @@
+{
+  "package": "SIMS-Merge-Claude",
+  "version": "1.0.0-RC2",
+  "generated_at": "2026-08-06T05:56:40+09:00",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "25d526309975101b8d175687afa283507cb2c60e2696dfa4158ec44d7e3c7355",
+      "size": 90
+    },
+    {
+      "path": "CLAUDE_DEPLOYMENT_MANIFEST.json",
+      "sha256": "6c9952653ebd37afc92090ab393249a27197d0600811195186d74b8be9e8c84b",
+      "size": 787
+    },
+    {
+      "path": "CLAUDE_PACKAGE_MANIFEST.json",
+      "sha256": "2edebd62a77d9103198010da123a027fb302646312b0f1d38f864f03cdf3e649",
+      "size": 470
+    },
+    {
+      "path": "CLAUDE_PROJECT_INSTRUCTIONS.md",
+      "sha256": "4b0f8139e812bb302566c79c2bd7dec028e839e6a28c14d51e60317bcf607964",
+      "size": 693
+    },
+    {
+      "path": "CLAUDE_UPDATE_GUIDE.md",
+      "sha256": "c8459999485cdd05553cb6aa0a9f2f64e1246914864767c01a8e65878c692da3",
+      "size": 637
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_DEPLOYMENT_MANIFEST.json",
+      "sha256": "6c9952653ebd37afc92090ab393249a27197d0600811195186d74b8be9e8c84b",
+      "size": 787
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_PACKAGE_MANIFEST.json",
+      "sha256": "2edebd62a77d9103198010da123a027fb302646312b0f1d38f864f03cdf3e649",
+      "size": 470
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_PROJECT_INSTRUCTIONS.md",
+      "sha256": "4b0f8139e812bb302566c79c2bd7dec028e839e6a28c14d51e60317bcf607964",
+      "size": 693
+    },
+    {
+      "path": "Claude-Upload/CLAUDE_UPDATE_GUIDE.md",
+      "sha256": "c8459999485cdd05553cb6aa0a9f2f64e1246914864767c01a8e65878c692da3",
+      "size": 637
+    },
+    {
+      "path": "Claude-Upload/DEPLOYMENT_TEST.md",
+      "sha256": "3218928fa0ec5bec377ab7979e77ea99b9f36cf84c25c0ae36c0b9117fb3911f",
+      "size": 593
+    },
+    {
+      "path": "Claude-Upload/PRODUCT_IDENTITY.json",
+      "sha256": "bb502378d2b851ceda04106286de1b280086767eaf6d02c6fbf3080ba8421051",
+      "size": 308
+    },
+    {
+      "path": "Claude-Upload/SHARED_VERSION",
+      "sha256": "5eee6c0c5c6901f5e523f0a434bca4106e1ff7136deb451f982b0bb1a7b13716",
+      "size": 6
+    },
+    {
+      "path": "Claude-Upload/VERSION",
+      "sha256": "8d2e2fa99f13947a7b62eea54300f11e70fb5cd7971f617ac545d07d06e15526",
+      "size": 10
+    },
+    {
+      "path": "Claude-Upload/contracts/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "Claude-Upload/contracts/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5",
+      "size": 750
+    },
+    {
+      "path": "Claude-Upload/contracts/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4",
+      "size": 2306
+    },
+    {
+      "path": "Claude-Upload/contracts/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd",
+      "size": 2246
+    },
+    {
+      "path": "Claude-Upload/contracts/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914",
+      "size": 2080
+    },
+    {
+      "path": "Claude-Upload/knowledge/CANNIBALIZATION_RULES.md",
+      "sha256": "9644f2c121600f27a6634a1676a3ca7729d1cefbc94c7e05748e5cb61d1d6a76",
+      "size": 257
+    },
+    {
+      "path": "Claude-Upload/knowledge/PRESERVATION_RULES.md",
+      "sha256": "e8bb4a97584c875c28a6fcff06374711bb5267bf54318ab03280e0228b9f5b0c",
+      "size": 170
+    },
+    {
+      "path": "Claude-Upload/knowledge/QUERY_MAPPING_RULES.md",
+      "sha256": "0ae2916348cd820ee254f0cb26c65bedff7a972d0ca0d2d836bf10fed1459add",
+      "size": 99
+    },
+    {
+      "path": "Claude-Upload/knowledge/ROLLBACK_RULES.md",
+      "sha256": "f83bc47229abcdc7c64ac788b0e76db1c72f041081efe173f31664f5676cb0a4",
+      "size": 142
+    },
+    {
+      "path": "Claude-Upload/runtime/OUTPUT_PROTOCOL.md",
+      "sha256": "0da446fae254ca75a9ab1d695ad29c43d13b8c1a15d685f1a212f4cc1eb1fd7c",
+      "size": 189
+    },
+    {
+      "path": "Claude-Upload/runtime/RUNTIME.md",
+      "sha256": "a5a898d151ed291259e873b9d752e00c15cd60ae439051c9b91d090db50a7510",
+      "size": 215
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/common/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/merge/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5",
+      "size": 750
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/merge/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4",
+      "size": 2306
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/merge/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd",
+      "size": 2246
+    },
+    {
+      "path": "Claude-Upload/shared/contracts/platform/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914",
+      "size": 2080
+    },
+    {
+      "path": "Claude-Upload/shared/enums/priority.json",
+      "sha256": "eda5e8639d6c63e8eae3ef379cd89c33529f3c6d605a311ef720fe55c6214afd",
+      "size": 131
+    },
+    {
+      "path": "Claude-Upload/shared/enums/result-status.json",
+      "sha256": "74c5853d37f29753eaca7711b2f740aea58153701906c66eb12ec856bd2f6c2f",
+      "size": 243
+    },
+    {
+      "path": "Claude-Upload/shared/enums/treatment-type.json",
+      "sha256": "14367112b8fd31b67b478a87ecbbbafe9e4681d39379a11205449d8554b22be6",
+      "size": 599
+    },
+    {
+      "path": "Claude-Upload/shared/platform/SNAPSHOT_MANIFEST.json",
+      "sha256": "6def52ae6039c9a68bbcf4e3a5e3abed856eb56cf213332f3b346b37deb90bf1",
+      "size": 704
+    },
+    {
+      "path": "Claude-Upload/validation/MERGE_VALIDATION.md",
+      "sha256": "165bfc333b693d0f02f9c3c1e7fed47f7e40e14b6db84c2c68de7c459acc89b0",
+      "size": 107
+    },
+    {
+      "path": "Claude-Upload/validation/SAFETY_VALIDATION.md",
+      "sha256": "ae3f48604d8744cc943f973c44dd56fa6dcc1ee3ee81093b83b3e873cefcb559",
+      "size": 134
+    },
+    {
+      "path": "DEPLOYMENT_TEST.md",
+      "sha256": "3218928fa0ec5bec377ab7979e77ea99b9f36cf84c25c0ae36c0b9117fb3911f",
+      "size": 593
+    },
+    {
+      "path": "PRODUCT_IDENTITY.json",
+      "sha256": "bb502378d2b851ceda04106286de1b280086767eaf6d02c6fbf3080ba8421051",
+      "size": 308
+    },
+    {
+      "path": "README.md",
+      "sha256": "509967be2df4d75e899cbe233e130b695646f78993d36049aa9bc2eb6abea040",
+      "size": 480
+    },
+    {
+      "path": "SHARED_VERSION",
+      "sha256": "5eee6c0c5c6901f5e523f0a434bca4106e1ff7136deb451f982b0bb1a7b13716",
+      "size": 6
+    },
+    {
+      "path": "VERSION",
+      "sha256": "8d2e2fa99f13947a7b62eea54300f11e70fb5cd7971f617ac545d07d06e15526",
+      "size": 10
+    },
+    {
+      "path": "claude-project/FILE_LIST.md",
+      "sha256": "c3405f0122de5a35a793548c527a14603629542a4e97ceb7858cae03e589cc7c",
+      "size": 282
+    },
+    {
+      "path": "claude-project/INSTALLATION_GUIDE.md",
+      "sha256": "4fa5effbc8ead634c69d9379414186788bc27f71defdc3850a2432598779056b",
+      "size": 110
+    },
+    {
+      "path": "claude-project/REMOVED_FILES.md",
+      "sha256": "bdaa388ff9a4b68d7027cd612afcfbe4fd1ca927937c222e05df8461a6af9562",
+      "size": 55
+    },
+    {
+      "path": "contracts/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "contracts/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5",
+      "size": 750
+    },
+    {
+      "path": "contracts/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4",
+      "size": 2306
+    },
+    {
+      "path": "contracts/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd",
+      "size": 2246
+    },
+    {
+      "path": "contracts/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914",
+      "size": 2080
+    },
+    {
+      "path": "knowledge/CANNIBALIZATION_RULES.md",
+      "sha256": "9644f2c121600f27a6634a1676a3ca7729d1cefbc94c7e05748e5cb61d1d6a76",
+      "size": 257
+    },
+    {
+      "path": "knowledge/PRESERVATION_RULES.md",
+      "sha256": "e8bb4a97584c875c28a6fcff06374711bb5267bf54318ab03280e0228b9f5b0c",
+      "size": 170
+    },
+    {
+      "path": "knowledge/QUERY_MAPPING_RULES.md",
+      "sha256": "0ae2916348cd820ee254f0cb26c65bedff7a972d0ca0d2d836bf10fed1459add",
+      "size": 99
+    },
+    {
+      "path": "knowledge/ROLLBACK_RULES.md",
+      "sha256": "f83bc47229abcdc7c64ac788b0e76db1c72f041081efe173f31664f5676cb0a4",
+      "size": 142
+    },
+    {
+      "path": "runtime/OUTPUT_PROTOCOL.md",
+      "sha256": "0da446fae254ca75a9ab1d695ad29c43d13b8c1a15d685f1a212f4cc1eb1fd7c",
+      "size": 189
+    },
+    {
+      "path": "runtime/RUNTIME.md",
+      "sha256": "a5a898d151ed291259e873b9d752e00c15cd60ae439051c9b91d090db50a7510",
+      "size": 215
+    },
+    {
+      "path": "shared/SNAPSHOT_MANIFEST.json",
+      "sha256": "7516aaf36de31fc7ffe9b9f1ad7e0753678935707f490ebb124012394bdab64b",
+      "size": 652
+    },
+    {
+      "path": "shared/contracts/common/common-envelope-v1.schema.json",
+      "sha256": "def4071afcad34f1970c447f2c7716bb9b2bd264771c32ed0b34b2a6a067a659",
+      "size": 1748
+    },
+    {
+      "path": "shared/contracts/merge/merge-plan-v1.schema.json",
+      "sha256": "4bcb5401c6af122a2e3114c1826c83dc53841c38c86e292c0bad00f5d765e1e5",
+      "size": 750
+    },
+    {
+      "path": "shared/contracts/merge/merge-treatment-request-v1.schema.json",
+      "sha256": "f3b46a3e430b7658d693f0a9168189a0951fbc2d020077e46660a0485902b1e4",
+      "size": 2306
+    },
+    {
+      "path": "shared/contracts/merge/merge-treatment-result-v1.schema.json",
+      "sha256": "9d3eaef31efcf6419252c2c8f0b42333704d1a6dc90668234424431d521b68fd",
+      "size": 2246
+    },
+    {
+      "path": "shared/contracts/platform/platform-error-v1.schema.json",
+      "sha256": "e13cdc0b9a4f5795cd81a05c085ff498b2beed5033ee3bdd5db643d7f321a914",
+      "size": 2080
+    },
+    {
+      "path": "shared/enums/priority.json",
+      "sha256": "eda5e8639d6c63e8eae3ef379cd89c33529f3c6d605a311ef720fe55c6214afd",
+      "size": 131
+    },
+    {
+      "path": "shared/enums/result-status.json",
+      "sha256": "74c5853d37f29753eaca7711b2f740aea58153701906c66eb12ec856bd2f6c2f",
+      "size": 243
+    },
+    {
+      "path": "shared/enums/treatment-type.json",
+      "sha256": "14367112b8fd31b67b478a87ecbbbafe9e4681d39379a11205449d8554b22be6",
+      "size": 599
+    },
+    {
+      "path": "tests/fixtures/M001-confirmed-merge.json",
+      "sha256": "063833b9023e91da9421be051055734549a62287ead33627d5c404ba58d58b47",
+      "size": 75
+    },
+    {
+      "path": "tests/fixtures/M002-keep-both.json",
+      "sha256": "47f0787f8f5683786fc48087589856291aacc0dceea1ecfc94baac5e73698533",
+      "size": 64
+    },
+    {
+      "path": "tests/fixtures/M003-role-separation.json",
+      "sha256": "1e3a1c85be33292dc87a96bb6a1c82fb3971a23764c91ea7abee502ab507c2de",
+      "size": 85
+    },
+    {
+      "path": "tests/fixtures/M004-old-new.json",
+      "sha256": "5cdd7b4b1f3717f767a40cdc7552eda17eb1ba45a61922b38f230fb2c558cbd0",
+      "size": 67
+    },
+    {
+      "path": "tests/fixtures/M005-low-evidence.json",
+      "sha256": "b523c03704a3d775b7c74609671d0bd5567838aaccf760468755695f46615a00",
+      "size": 79
+    },
+    {
+      "path": "tests/fixtures/M006-revenue.json",
+      "sha256": "bc4a09d8885fa78e56ed43abe9e77ef37ffd9f66e2b30de1eb3724fac72f18b9",
+      "size": 75
+    },
+    {
+      "path": "tests/fixtures/M007-experience-preservation.json",
+      "sha256": "fbd19a75140c860250ffe5e449435918e541da60fdeb220f83c68af9511f65da",
+      "size": 90
+    },
+    {
+      "path": "tests/fixtures/M008-backlink-redirect.json",
+      "sha256": "042d776a53556c709d276d711d200bd42645c8f4e597145e46d651e6714801df",
+      "size": 80
+    },
+    {
+      "path": "tests/fixtures/M009-creator-referral.json",
+      "sha256": "6ba9bc9a5bbb4b9f46b946bdfac9a7efd1976cd712742485301bb5b76f2c4808",
+      "size": 78
+    },
+    {
+      "path": "tests/fixtures/M010-writer-referral.json",
+      "sha256": "86aff6af56088c1c99bf8fad8b8980c0c5fcd6f54e9eef1ed657784487980376",
+      "size": 76
+    },
+    {
+      "path": "tests/fixtures/M011-rollback.json",
+      "sha256": "56398349f5cd4dff6dcea960c543faa72e6871c82325c2f719d50a9df556ab4e",
+      "size": 71
+    },
+    {
+      "path": "tests/fixtures/M012-id-integrity.json",
+      "sha256": "5b5555a4663653f84d22def45b71b33c4c68bb6b15a222a2436b8916e07206e5",
+      "size": 70
+    },
+    {
+      "path": "validation/MERGE_VALIDATION.md",
+      "sha256": "165bfc333b693d0f02f9c3c1e7fed47f7e40e14b6db84c2c68de7c459acc89b0",
+      "size": 107
+    },
+    {
+      "path": "validation/SAFETY_VALIDATION.md",
+      "sha256": "ae3f48604d8744cc943f973c44dd56fa6dcc1ee3ee81093b83b3e873cefcb559",
+      "size": 134
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "deployment_manifest_version": "1.0",
+  "package_name": "SIMS-Merge-Claude",
+  "package_version": "1.0.0-RC2",
+  "product_code": "MERGE",
+  "shared_version": "3.3.0",
+  "platform_compatibility": "1.x",
+  "upload_method": "UPLOAD_CONTENTS_OF_CLAUDE_UPLOAD_DIRECTORY",
+  "upload_directory": "Claude-Upload",
+  "replace_existing_project_files": true,
+  "required_files": [
+    "CLAUDE_PROJECT_INSTRUCTIONS.md",
+    "PRODUCT_IDENTITY.json",
+    "VERSION",
+    "SHARED_VERSION",
+    "CLAUDE_PACKAGE_MANIFEST.json",
+    "CLAUDE_DEPLOYMENT_MANIFEST.json",
+    "shared/platform/SNAPSHOT_MANIFEST.json"
+  ],
+  "forbidden_files": [
+    "shared/SNAPSHOT_MANIFEST.json",
+    "shared/VERSION",
+    "legacy Shared snapshots earlier than 3.3.0"
+  ],
+  "generated_at": "2026-08-06T05:56:40+09:00"
+}

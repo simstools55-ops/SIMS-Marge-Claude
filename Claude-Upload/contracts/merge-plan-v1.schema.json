@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SIMS_MERGE_PLAN_V1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "primary_article_id",
+    "absorbed_article_ids",
+    "preserved_sections",
+    "new_structure",
+    "publication_sequence",
+    "rollback_plan"
+  ],
+  "properties": {
+    "primary_article_id": {
+      "type": "string"
+    },
+    "absorbed_article_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preserved_sections": {
+      "type": "array"
+    },
+    "new_structure": {
+      "type": "array"
+    },
+    "publication_sequence": {
+      "type": "array"
+    },
+    "rollback_plan": {
+      "type": "array",
+      "minItems": 1
+    }
+  }
+}
